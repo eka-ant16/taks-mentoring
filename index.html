@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,9 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
 
-    <title>Haibook</title>
+    <title>BuyBook</title>
   </head>
   <body>
     
@@ -17,23 +17,27 @@
     <header  class="header-area ">
       
       <nav class="navbar navbar-expand-lg navbar-light bg-light  ml-4 mt-4">
-        <img src="img/hb.png" width="40" height="40" class="d-inline-block align-top" alt="">
+        <img src="img/hb.png" width="40" height="40" class="logo" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <form>
+    <input class="search" type="text" placeholder="Cari aku ya?..." required>
+    <a href="bukucerita.html"><input class="button" type="button" value="Cari"></a>   
+</form>
         <div class="ml-auto" class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mr-4 mt-1" > 
+          <ul class="navbar-nav mr-4 mt-1" >
+          <li class="nav-item active mr-4">
+              <a class="nav-link" href="#">Beranda</a>
+            </li> 
             <li class="nav-item active mr-4">
-              <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="AboutUs.html">About Us <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active mr-4">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="https://eka-tutorial.blogspot.com/">Blog</a>
             </li>
             <li class="nav-item active mr-4">
-              <a class="nav-link" href="#">Catalog</a>
-            </li>
-            <li class="nav-item active mr-4">
-              <a class="nav-link  mr-30" href="#"><button type="button" class="btn btn-primary contact">Contact Us</button></a>
+              <a class="nav-link  mr-30" href="ContactUs.html"><button type="button" class="btn btn-primary contact">Contact Us</button></a>
             </li>
           </ul>
         </div>
@@ -46,58 +50,34 @@
       <div class="container mt-4">
         <div class="row">
           <div class="col mt-4 bg-light mr-4">
-            <h1 class="mb-4 font-weight-bold">Expand knowledge <br>
-            by reading books</h1>
-            <p class="mb-4 text-secondary">Far far away, behind the word mountains, far <br> from the countries Vokalia and Consonantia,<br> 
-              there live the blind texts</p>
-          <button type="button" class="btn btn-primary btn-lg">Get started</button>
+            <h1 class="mb-4 font-weight-bold">
+              Perbanyak pengetahuan <br>
+            
+              dengan membaca buku</h1>
+            <p class="mb-4 text-secondary">Jauh sekali, di balik kata pegunungan, jauh sekali <br> dari negara Vokalia dan Consonantia,<br> 
+              di sana hiduplah teks-teks buta</p><br><br><br><br><br><br><br><br>
+              <img src="img/1.jpg" class="img1">
+              <img src="img/2.jpg" class="img2">
+              <img src="img/3.jpg" class="img3">
+          <a href="login.html"><button type="button" class="btn btn-primary btn-lg">Memulai</button></a>
           </div>
-          <div class="col bg-light">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item active">
-                  <img src="img/2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item active">
-                  <img src="img/4.jpg" class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </section>
     <!-- akhir header -->
     <div>
       <h6 class="text-center text-secondary mt-4">ABOUT US</h6>
-      <h3 class="text-center font-weight-bold mt-4">What Is Haibook?</h3 >
+      <h3 class="text-center font-weight-bold mt-4">Apa Itu BuyBook?</h3 >
     </div>
 
     <div class="container ">
       <div class="row">
         <div class="col mt-4 bg-light mr-4">
-          <h3>Buy & Read Children's Books </h3>
-          <p class="text-secondary">A wonderful serenity has taken possession of my <br> entire soul, like these sweet mornings of spring which <br> I enjoy with my whole heart. I am alone, and feel the <br> charm of existence in this spot, which was created <br> for the bliss of souls like mine. I am so happy, my dear <br> friend, so absorbed in the exquisite sense of mere <br> tranquil existence, that I neglect my talents.</p>
+          <h3>Beli & Baca Buku Anak-Anak </h3>
+          <p class="text-secondary">Ketenangan yang indah telah menguasai saya <br> seluruh jiwa, seperti pagi musim semi yang manis ini <br> Saya menikmati dengan sepenuh hati. Saya sendiri, dan merasakan <br> pesona keberadaan di tempat ini, yang diciptakan <br> demi kebahagiaan jiwa-jiwa seperti jiwa saya. Saya sangat senang, pacar <br> teman, begitu asyik dalam arti indah belaka <br> keberadaan yang tenang, bahwa saya mengabaikan bakat saya.</p>
         </div>
         <div class="col mt-4 bg-light ml-4">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/eCIaBtPndw4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/D51kgpc-Qv8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -105,38 +85,43 @@
 
     <div>
       <h6 class="text-center text-secondary mt-4">CATALOG</h6>
-      <h3 class="text-center font-weight-bold mt-4">List of Book Categories</h3 >
+      <h3 class="text-center font-weight-bold mt-4">Daftar Kategori Buku</h3 >
     </div>
 
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="text-muted ml-5 mr-5" href="#"><u>Pop Up Book</u> </a>
+        <a class="text-muted ml-5 mr-5" href="#"><u>Buku Pop Up</u> </a>
       </li>
       <li class="nav-item">
-        <a class="text-muted ml-5 mr-5" href="#"><u>Paper Book</u></a>
+        <a class="text-muted ml-5 mr-5" href="#"><u>Buku Tulis</u></a>
       </li>
       <li class="nav-item">
-        <a class="text-muted ml-5 mr-5" href="#"><u>Jigsaw Book</u></a>
+        <a class="text-muted ml-5 mr-5" href="#"><u>Buku jigsaw</u></a>
       </li>
       <li class="nav-item">
-        <a class="text-dark font-weight-bold" href="#"><u>Story Book</u></a>
+        <a class="text-dark font-weight-bold" href="bukucerita.html"><u>Buku Cerita</u></a>
       </li>
       <li class="nav-item">
         <a class="text-muted ml-5 mr-5" href="#">Puzzle Book</a>
       </li>
       <li class="nav-item">
-        <a class="text-muted ml-5 mr-5" href="#">Atlas Book</a>
+        <a class="text-muted ml-5 mr-5" href="#">Buku Atlas</a>
       </li>
       <li class="nav-item">
-        <a class="text-muted ml-5 mr-5" href="#">Light Book</a>
+        <a class="text-muted ml-5 mr-5" href="#">Buku Ringan</a>
       </li>
     </ul>
-    
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <br>
+    <br>
+    <br>
   </body>
+<footer>
+  <table align="center" bgcolor="silver" width="1275px">
+    <tr>
+      <td width="1000px">
+        <font face="Copyright Violations" size="3" align="center" color="black"><center>Copyright ©2020 ~ Eka Mukti All Rights Reserved</font></center>
+      </td>
+    </tr>
+  </table>
+</footer>
 </html>
